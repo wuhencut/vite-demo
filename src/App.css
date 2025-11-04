@@ -1,0 +1,28 @@
+.app-layout {
+  min-height: 100vh;
+}
+.app-layout .app-header {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  background: #001529;
+}
+.app-layout .app-header .logo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 40px;
+}
+.app-layout .app-header .app-menu {
+  flex: 1;
+  border-bottom: none;
+}
+.app-layout .app-content {
+  padding: 24px;
+  min-height: calc(100vh - 64px - 70px);
+  background: #f0f2f5;
+}
+.app-layout .app-footer {
+  text-align: center;
+  background: #fff;
+}
